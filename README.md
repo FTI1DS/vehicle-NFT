@@ -1,8 +1,6 @@
 ## Vehicle-NFT
 
 ## Steps taken to create the project:
-
-
 1. curl -L https://foundry.paradigm.xyz | bash
 2. mkdir foundry
 3. cd foundry
@@ -12,6 +10,11 @@
 7. cd lib/
 8. git clone https://github.com/OpenZeppelin/openzeppelin-contracts
 9. delete src/Counter.sol, test/Counter.test.sol, script/Counter.s.sol
+
+## Steps to deploy the Contract from cloned repository
+1. curl -L https://foundry.paradigm.xyz | bash
+2. Run 'source /home/<USERNAME>/.bashrc' or start a new terminal session to use foundryup.
+3. open the cloned folder
 
 ## Compile the contract
 forge build
