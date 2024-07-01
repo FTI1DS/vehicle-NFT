@@ -13,7 +13,7 @@
 
 ## Steps to Deploy the Contract from a Cloned Repository
 1. curl -L https://foundry.paradigm.xyz | bash
-2. Run 'source /home/<USERNAME>/.bashrc' or start a new terminal session to use foundryup.
+2. Run 'source /home/<USERNAME>.bashrc' or start a new terminal session to use foundryup.
 3. open the cloned folder
 
 ## Compile the contract
