@@ -1,0 +1,103 @@
+{
+  "transactions": [
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x7f7f8833212158d50722dda49d2d794b583b8f6b",
+      "function": "mint(address,string)",
+      "arguments": [
+        "0x63e42Efbc0EAB83cFFc1A6fB3f6953F1C221EcA1",
+        "\"https://example.com/nft/1\""
+      ],
+      "transaction": {
+        "from": "0x63e42efbc0eab83cffc1a6fb3f6953f1c221eca1",
+        "to": "0x7f7f8833212158d50722dda49d2d794b583b8f6b",
+        "gas": "0x31a31",
+        "value": "0x0",
+        "input": "0xd0def52100000000000000000000000063e42efbc0eab83cffc1a6fb3f6953f1c221eca10000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000001968747470733a2f2f6578616d706c652e636f6d2f6e66742f3100000000000000",
+        "nonce": "0x20",
+        "chainId": "0x4ed79c"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x7f7f8833212158d50722dda49d2d794b583b8f6b",
+      "function": "updateMileage(uint256,uint256)",
+      "arguments": [
+        "0",
+        "15000"
+      ],
+      "transaction": {
+        "from": "0x63e42efbc0eab83cffc1a6fb3f6953f1c221eca1",
+        "to": "0x7f7f8833212158d50722dda49d2d794b583b8f6b",
+        "gas": "0x10fa1",
+        "value": "0x0",
+        "input": "0xc983154100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003a98",
+        "nonce": "0x21",
+        "chainId": "0x4ed79c"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x7f7f8833212158d50722dda49d2d794b583b8f6b",
+      "function": "addServiceRecord(uint256,uint256,uint256,string)",
+      "arguments": [
+        "0",
+        "10000",
+        "1719837094",
+        "\"Oelwechsel\""
+      ],
+      "transaction": {
+        "from": "0x63e42efbc0eab83cffc1a6fb3f6953f1c221eca1",
+        "to": "0x7f7f8833212158d50722dda49d2d794b583b8f6b",
+        "gas": "0x29ae9",
+        "value": "0x0",
+        "input": "0xe1659e9500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002710000000000000000000000000000000000000000000000000000000006682a1a60000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000a4f656c7765636873656c00000000000000000000000000000000000000000000",
+        "nonce": "0x22",
+        "chainId": "0x4ed79c"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x7f7f8833212158d50722dda49d2d794b583b8f6b",
+      "function": "addAccidentRecord(uint256,uint256,uint256,string)",
+      "arguments": [
+        "0",
+        "12000",
+        "1719837094",
+        "\"Kleiner Unfall hinten links\""
+      ],
+      "transaction": {
+        "from": "0x63e42efbc0eab83cffc1a6fb3f6953f1c221eca1",
+        "to": "0x7f7f8833212158d50722dda49d2d794b583b8f6b",
+        "gas": "0x29c55",
+        "value": "0x0",
+        "input": "0x7a736d3100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002ee0000000000000000000000000000000000000000000000000000000006682a1a60000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000001b4b6c65696e657220556e66616c6c2068696e74656e206c696e6b730000000000",
+        "nonce": "0x23",
+        "chainId": "0x4ed79c"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1719837394,
+  "chain": 5167004,
+  "commit": null
+}

@@ -1,0 +1,16 @@
+{
+  "transactions": [
+    {
+      "rpc": "https://geneva-rpc.moonchain.com"
+    },
+    {
+      "rpc": "https://geneva-rpc.moonchain.com"
+    },
+    {
+      "rpc": "https://geneva-rpc.moonchain.com"
+    },
+    {
+      "rpc": "https://geneva-rpc.moonchain.com"
+    }
+  ]
+}
