@@ -30,3 +30,7 @@ forge flatten src/VehicleNFT.sol > flattened_VehicleNFT.sol
 verify the contract:
 1. open contract on geneva explorer, click on contract > Verify & publish
 2. choose 0.8.26 compiler, evm:istanbul, copy the flattened_VehicleNFT.sol-Code into the textfield and click on Verify
+
+## Interact with deployed contract with foundry-script
+1. Change Contract-address in script/InteractVehicleNFT.s.sol
+2. forge script script/InteractVehicleNFT.s.sol --rpc-url  https://geneva-rpc.moonchain.com --private-key <PRIVATE_KEY> --broadcast
