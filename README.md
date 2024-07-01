@@ -21,6 +21,9 @@ forge test
 
 
 ## Steps for deployment and verification:
+Important:
+Enter your private key into the .env file like this example. It's important to add 0x before the key. Example: PRIVATE_KEY=0x5323614sdkjbrrkjq3...
+
 Deploy the contract:
 forge script script/VehicleNFT.s.sol --rpc-url https://geneva-rpc.moonchain.com --broadcast
 
